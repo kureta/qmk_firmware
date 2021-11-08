@@ -23,11 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A { F4 }
 #define ENCODERS_PAD_B { F5 }
 #define ENCODER_RESOLUTION 4
-/* Select hand configuration */
 
 #define MASTER_LEFT
-// #define MASTER_RIGHT
-// #define EE_HANDS
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
@@ -35,11 +32,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
 #define DISABLE_LEADER
-
-// Underglow
-/*
-#undef RGBLED_NUM
-#define RGBLED_NUM 14    // Number of LEDs
-#define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_SLEEP
-*/
