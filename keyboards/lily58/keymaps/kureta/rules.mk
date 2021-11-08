@@ -19,7 +19,7 @@ EXTRAKEY_ENABLE = yes        # Audio control and System control
 BOOTLOADER = atmel-dfu  # Elite-C
 
 CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = no         # Commands for debug and configuration
+COMMAND_ENABLE = yes         # Commands for debug and configuration
 
 EXTRAFLAGS += -flto
 
